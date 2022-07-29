@@ -17,6 +17,11 @@ public class OiMundoServlet extends HttpServlet { //para transformar a classe em
 		
 		//definir o fluxo binário
 		PrintWriter out = resp.getWriter(); //desenvolver o conteúdo html
-		
+		//desenvolver conteúdo do html
+		out.println("<html>");
+		out.println("<body>");
+		out.println("Oi mundo! Você escreveu o primeiro Servlet.");
+		out.println("</body>");
+		out.println("</html>");
 	}
 }
