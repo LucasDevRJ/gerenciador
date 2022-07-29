@@ -3,7 +3,6 @@ package br.com.alura.gerenciador.servlet;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
@@ -23,5 +22,7 @@ public class OiMundoServlet extends HttpServlet { //para transformar a classe em
 		out.println("Oi mundo! Você escreveu o primeiro Servlet.");
 		out.println("</body>");
 		out.println("</html>");
+		
+		System.out.println("O Servlet OiMundoServlet foi chamado!");
 	}
 }
