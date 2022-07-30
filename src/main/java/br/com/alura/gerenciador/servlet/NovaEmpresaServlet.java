@@ -20,8 +20,9 @@ public class NovaEmpresaServlet extends HttpServlet {
 	//método do lado do servidor
 	protected void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("Cadastrando nova empresa!");
+		String nomeEmpresa = request.getParameter("nome");
 		PrintWriter out = response.getWriter();
-		out.println("<html><body></body></html>");
+		out.println("<html><body>Empresa " + nomeEmpresa + " castrada com sucesso!</body></html>");
 	}
 
 }
