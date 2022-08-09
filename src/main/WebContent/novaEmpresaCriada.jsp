@@ -1,4 +1,5 @@
 <% 
+	//scriplet - pedaço de código Java
 	String nomeEmpresa = "Alura";
 	System.out.println(nomeEmpresa);
 %>
