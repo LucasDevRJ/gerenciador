@@ -1,3 +1,8 @@
+<% 
+	String nomeEmpresa = "Alura";
+	System.out.println(nomeEmpresa);
+%>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -6,6 +11,6 @@
 	</head>
 	
 	<body>
-		Empresa + nomeEmpresa + " cadastrada com sucesso!"
+		Empresa <%=nomeEmpresa %> cadastrada com sucesso!
 	</body>
 </html>
