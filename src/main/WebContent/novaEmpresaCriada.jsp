@@ -1,6 +1,6 @@
 <% 
 	//scriplet - pedaço de código Java
-	String nomeEmpresa = "Alura";
+	String nomeEmpresa = request.getAttribute("empresa"); //pegando o atributo pelo apelido
 	System.out.println(nomeEmpresa);
 %>
 
