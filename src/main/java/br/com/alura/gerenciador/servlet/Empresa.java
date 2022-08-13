@@ -23,4 +23,12 @@ public class Empresa {
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
+	
+	public void setDataAbertura(Date dataAbertura) {
+		this.dataAbertura = dataAbertura;
+	}
+	
+	public Date getDataAbertura() {
+		return dataAbertura;
+	}
 }
