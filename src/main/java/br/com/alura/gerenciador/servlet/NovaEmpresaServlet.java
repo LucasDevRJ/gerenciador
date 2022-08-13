@@ -22,6 +22,8 @@ public class NovaEmpresaServlet extends HttpServlet {
 		System.out.println("Cadastrando nova empresa!");
 		
 		String nomeEmpresa = request.getParameter("nome");
+		String dataEmpresa = request.getParameter("data");
+		
 		Empresa empresa = new Empresa();
 		empresa.setNome(nomeEmpresa);
 		
