@@ -11,10 +11,11 @@ public class Banco {
 	static {
 		Empresa empresa = new Empresa();
 		empresa.setNome("Alura");
-		empresa.setId(chaveSequencial);
+		empresa.setId(chaveSequencial++);
 		
 		Empresa empresa2 = new Empresa();
 		empresa2.setNome("Caelum");
+		empresa2.setId(chaveSequencial++);
 		
 		lista.add(empresa);
 		lista.add(empresa2);
