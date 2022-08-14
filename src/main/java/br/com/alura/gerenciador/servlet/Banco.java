@@ -29,5 +29,9 @@ public class Banco {
 	public List<Empresa> getEmpresas() {
 		return Banco.lista;
 	}
+	
+	public void removeEmpresa(Integer id) {
+		
+	}
 
 }
