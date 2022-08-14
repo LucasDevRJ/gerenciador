@@ -31,7 +31,11 @@ public class Banco {
 	}
 	
 	public void removeEmpresa(Integer id) {
-		
+		for (Empresa empresa : lista) {
+			if (empresa.getId() == id) {
+				Banco.lista.remove(empresa);
+			}
+		}
 	}
 
 }
