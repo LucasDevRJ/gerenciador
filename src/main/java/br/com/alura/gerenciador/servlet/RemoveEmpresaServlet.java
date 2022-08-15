@@ -20,6 +20,8 @@ public class RemoveEmpresaServlet extends HttpServlet {
 		
 		Banco banco = new Banco();
 		banco.removeEmpresa(id);
+		
+		response.sendRedirect("listaEmpresas");
 	}
 
 }
