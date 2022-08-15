@@ -15,8 +15,6 @@
 			
 			Data Abertura: <input type="text" name="data"/>
 			
-			<input type="text" name="id" value="${empresa.id}">
-			
 			<input type="submit"/>
 		</form>
 	</body>
