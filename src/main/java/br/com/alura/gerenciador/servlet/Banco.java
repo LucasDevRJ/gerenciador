@@ -44,4 +44,8 @@ public class Banco {
 		}
 	}
 
+	public Empresa buscaEmpresaPelaId(Integer id) {
+		
+		return null;
+	}
 }
