@@ -23,6 +23,10 @@ public class MostraEmpresaServlet extends HttpServlet {
 		
 		System.out.println(empresa.getNome());
 		
+		request.setAttribute("empresa", empresa);
+		
 		RequestDispatcher rd = request.getRequestDispatcher("/formAlteraEmpresa.jsp");
+		
+		rd.forward(request, response);
 	}
 }
