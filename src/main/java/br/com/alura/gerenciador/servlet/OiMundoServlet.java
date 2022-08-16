@@ -8,9 +8,13 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns ="/oi") //definir o nome da url do Servlet
+//@WebServlet(urlPatterns ="/oi") //definir o nome da url do Servlet
 public class OiMundoServlet extends HttpServlet { //para transformar a classe em Servlet
 
+	public OiMundoServlet() {
+		System.out.println("Criando Oi Mundo Servlet");
+	}
+	
 	@Override
 	protected void service(HttpServletRequest req, HttpServletResponse resp) throws IOException {
 		
